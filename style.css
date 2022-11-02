@@ -1,0 +1,88 @@
+body{
+    background-image: url(./img/crip.jpg);
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+}
+
+.tudo{
+    display: flex;
+    flex-flow: row wrap;
+    margin-top: 5%;
+    width: 30%;
+    background-color:rgba(0, 0, 0, 0.7);
+    text-align: center;
+    justify-content: center;
+    padding-bottom: 2%;
+    color: white;
+    min-width: 360px;
+    min-height: 250px;
+    border-radius: 20px;
+}
+
+h1{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+textarea {
+    height: 100px;
+    line-height: 150%;
+    resize:vertical;
+    font-size: 20px;
+}
+.campo{
+    display: flex;
+    justify-content: flex-start;
+}
+.a{
+    width: 350px;
+}
+
+#btn,#limpar {
+
+    font-family: 'open_sansregular';
+    width: 100%;
+    background:blue;
+    color: black;
+    border-radius:5px;
+    border:0;
+    cursor:pointer;
+    font-size:22px;
+    padding-top:10px;
+    padding-bottom:10px;
+    transition: all 0.3s;
+    margin-top:-4px;
+    font-weight:700;
+    color: white;
+  
+}
+
+#btn:hover{
+    background:green;
+}
+
+#limpar:hover{
+    background:red;
+}
+
+.botoes{
+    display: flex;
+    justify-content: space-evenly;
+}
+.form-select{
+   width: 50%;
+   height: 40px;
+   font-size: 15px;
+   text-align: center;
+   font-weight: bold;
+}
+
+.incremento p{
+    font-size: 20px;
+    font-weight: bold;
+}
+#incremento{
+    font-size: 20px;
+    text-align: center;
+    color:red;
+    font-weight: bold;
+}

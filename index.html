@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="tudo">
+        <form name="form">
+            <h1>Mensagem Oculta</h1>
+            
+            <div class="incremento">
+                <p>CHAVE</p>
+                <input id="incremento" type="number" min="1" max="26" value="1">
+            </div>
+            <br>
+            <div class="campo">
+                <textarea name="mensagem" class="a" id="mensagem" placeholder="Mensagem" required=""></textarea>
+            </div>
+            <br>
+            <div class="botoes">
+              <div class="form-check">
+                    <input class="form-check-input" type="radio"    name="botaoradio" id="codificar" checked>
+                    <label for="codificar" class="form-check-label" >
+                    Codificar
+                    </label>
+                </div>
+                <div class="form-check">
+                    <input class="form-check-input" type="radio" name="botaoradio" id="decodificar" >
+                    <label for="decodificar" class="form-check-label">
+                        Decodificar
+                    </label>
+                </div>
+            </div>
+            <br>
+            <div class="campo">
+                <textarea name="resultado" id="resultado" class="a" placeholder="Resultado" readonly></textarea>
+            </div>
+            <br><br>
+            
+            <button id="btn" nome="btn" onclick="cifraCesar()">Codificar Mensagem!</button>
+            <input type="reset" id="limpar" nome="limpar" value="Limpar">
+               
+        </form>
+    </div>
+    <script src="funcao.js"></script>
+</body>
+</html>
